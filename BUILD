@@ -3,6 +3,7 @@
 
 - download boost from boost.org
 - build bjam first by running the bootstrap.bat script
-- run bjam such as: bjam.exe (by default this will only build the dynamic version of the libraries)
+- run bjam such as below: (by default this will only build the dynamic version of the libraries)
+>> bjam
 - for building static variants do the following:
-
+>> bjam --toolset=msvc link=static threading=multi runtime-link=static
